@@ -1,7 +1,8 @@
 flask
 flask-cors
-torch
+gunicorn
 numpy
 pandas
 scikit-learn
-gunicorn
+torch
+torch-geometric
