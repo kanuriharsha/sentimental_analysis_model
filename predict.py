@@ -5,7 +5,7 @@ import torch
 import torch.nn.functional as F
 
 from torch import nn
-from torch_geometric.data import Data
+# from torch_geometric.data import Data
 from torch_geometric.nn import GATConv
 
 
