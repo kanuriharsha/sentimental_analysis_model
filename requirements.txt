@@ -5,7 +5,8 @@ numpy
 pandas
 scikit-learn
 
-torch==2.0.1
+torch
+
 
 torch-scatter -f https://data.pyg.org/whl/torch-2.0.1+cpu.html
 torch-sparse -f https://data.pyg.org/whl/torch-2.0.1+cpu.html
