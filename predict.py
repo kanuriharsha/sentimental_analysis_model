@@ -72,7 +72,7 @@ for k, v in raw_label_map.items():
 # =========================
 # Load model checkpoint
 # =========================
-checkpoint = torch.load(MODEL_PATH, map_location="cpu")
+checkpoint = torch.load(MODEL_PATH, map_location=torch.device("cpu"))
 
 input_dim = checkpoint["input_dim"]
 hidden_dim = checkpoint["hidden_dim"]
