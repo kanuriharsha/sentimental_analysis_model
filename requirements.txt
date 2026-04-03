@@ -7,7 +7,6 @@ scikit-learn
 
 torch==2.0.1
 
-# PyG dependencies (VERY IMPORTANT)
 torch-scatter -f https://data.pyg.org/whl/torch-2.0.1+cpu.html
 torch-sparse -f https://data.pyg.org/whl/torch-2.0.1+cpu.html
 torch-cluster -f https://data.pyg.org/whl/torch-2.0.1+cpu.html
